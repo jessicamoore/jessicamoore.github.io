@@ -1,0 +1,163 @@
+body, html {
+  background-color: #fff;
+	color: #666;
+  font-family: "Helvetica Nueue", Helvetica, Arial, Verdana, sans-serif;
+  line-height: 1.5;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+#nav{
+
+}
+
+.nav-item {
+  margin: 0;
+  top: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  list-style-type: none;
+  display: inline-block;
+  float: right;
+  font-weight: 300;
+
+}
+.nav-item a {
+  display: block;
+  margin: 10px;
+  text-align: center;
+}
+
+
+#header {
+  font-family: "Helvetica Nueue", Helvetica, Arial, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 200;
+  font-size: 25px;
+  padding: 5px;
+  text-align: center;
+  letter-spacing: 5px;
+  position: fixed;
+  padding-left: 10px;
+  top: 0px;
+  z-index: 1000;
+}
+
+/*
+input[type="text"] {
+  float: right;
+  margin: 10px;
+  width: 200px;
+  height: 20px;
+  border: 5px solid;
+  opacity: .50;
+}
+*/
+
+
+a:link {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+.image-container {
+  display: inline-block;
+  margin-top: 100px ;
+
+}
+
+img {
+  height: 250px;
+  padding: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#container {
+  background: #fff;
+  text-align: center;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  position: absolute;;
+  z-index: 100;
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 30%;
+}
+
+#text1 {
+  height: 260px;
+  width: 750px;
+  position: absolute;
+  left: calc(50% - 250px);
+  top: calc(35% - 100px);
+  z-index: 100;
+  text-align: left;
+  font-weight: 200;
+}
+
+#background {
+    background: url("assets/img/3.jpeg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+
+#big {
+  left: 0;
+  width:100%;
+  height:100%;
+  display: block;
+}
+
+/*
+#div1 {
+  width: 200px;
+  height: 300px;
+  background: #fff;
+  display: inline-block;
+  margin: 200;
+  position: relative;
+}
+
+*/
+
+ul {
+  position: relative;
+  margin-top: 25px;
+
+}
+
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 65px;
+  background-color: #fff;
+}
